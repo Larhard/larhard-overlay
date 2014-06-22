@@ -10,7 +10,7 @@ SRC_URI="http://elgassia.tk/overlay/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~alpha ~amd64 ~arm ~ia64 ~ppc ~ppc64 ~sparc ~x86"
 IUSE=""
 
 PYTHON_DEPEND="2"
