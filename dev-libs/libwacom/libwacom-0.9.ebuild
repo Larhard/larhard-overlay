@@ -1,4 +1,4 @@
-# Copyright 1999-2013 Gentoo Foundation
+# Copyright 1999-2014 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Header: /var/cvsroot/gentoo-x86/dev-libs/libwacom/libwacom-0.9.ebuild,v 1.1 2014/03/04 16:50:26 pacho Exp $
 
@@ -16,7 +16,7 @@ KEYWORDS="~alpha ~amd64 ~arm ~ia64 ~ppc ~ppc64 ~sparc ~x86"
 IUSE="doc static-libs"
 
 RDEPEND="dev-libs/glib:2
-	virtual/udev[gudev]"
+	virtual/libgudev"
 DEPEND="${RDEPEND}
 	virtual/pkgconfig
 	doc? ( app-doc/doxygen )"
@@ -33,7 +33,7 @@ src_configure() {
 
 src_install() {
 	default
-	local udevdir="$(udev_get_udevdir)"
+	local udevdir="$(get_udevdir)"
 	dodir "${udevdir}/rules.d"
 	# generate-udev-rules must be run from inside tools directory
 	pushd tools > /dev/null
