@@ -48,7 +48,7 @@ SRC_URI="${SRC_URI}
 	pipelight? ( https://github.com/compholio/wine-compholio-daily/archive/v${COMPHOLIOV}.tar.gz -> ${COMPHOLIO_PATCHES}.tar.gz )
 	pulseaudio? ( http://dev.gentoo.org/~tetromino/distfiles/${WN}/${PULSE_PATCHES}.tar.bz2 )
 	http://dev.gentoo.org/~tetromino/distfiles/${WN}/${WINE_GENTOO}.tar.bz2
-	lol_patches? ( http://elgassia.tk/${LOL_PATCHES_N}/${LOL_PATCHES}.tar.gz )"
+	lol_patches? ( http://elgassia.com/${LOL_PATCHES_N}/${LOL_PATCHES}.tar.gz )"
 
 LICENSE="LGPL-2.1"
 SLOT="0"

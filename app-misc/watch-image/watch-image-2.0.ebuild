@@ -5,8 +5,8 @@
 EAPI=5
 
 DESCRIPTION="Imgur scripts"
-HOMEPAGE="http://elgassia.tk/"
-SRC_URI="http://elgassia.tk/overlay/${PN}/${P}.tar.gz"
+HOMEPAGE="http://elgassia.com/"
+SRC_URI="http://overlay.elgassia.com/${PN}/${P}.tar.gz"
 
 LICENSE="BSD-2"
 SLOT="0"

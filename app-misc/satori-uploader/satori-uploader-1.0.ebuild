@@ -5,8 +5,8 @@
 EAPI=5
 
 DESCRIPTION="Code submiter for TCS Satori service"
-HOMEPAGE="http://elgassia.tk/"
-SRC_URI="http://elgassia.tk/overlay/${PN}/${P}.tar.gz"
+HOMEPAGE="http://elgassia.com/"
+SRC_URI="http://overlay.elgassia.com/${PN}/${P}.tar.gz"
 
 LICENSE="GPL-2"
 SLOT="0"
