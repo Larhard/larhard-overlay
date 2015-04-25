@@ -17,5 +17,5 @@ KEYWORDS="~x86 ~amd64"
 IUSE=""
 
 PYTHON_DEPEND="3"
-DEPEND="dev-lang/python dev-vcs/git"
+DEPEND="dev-lang/python:* dev-python/pyinotify dev-python/notify-python"
 RDEPEND="${DEPEND}"
