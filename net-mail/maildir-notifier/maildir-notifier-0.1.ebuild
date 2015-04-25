@@ -5,7 +5,7 @@
 EAPI=5
 
 inherit git-r3
-EGIT_REPO_URI="https://github.com/Larhard/Mail-Notifier.git"
+EGIT_REPO_URI="https://github.com/Larhard/Maildir-Notifier.git"
 EGIT_COMMIT=v${PV}
 
 DESCRIPTION="Maildir Notifier"
