@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>                                                                                                     
+<repositories version="1.0">
+	<repo priority="50" quality="experimental" status="unofficial">
+		<name>larhard</name>
+		<description>Larhard's custom repositories</description>
+		<homepage>http://elgassia.com/</homepage>
+		<owner>
+			<email>larhard@gmail.com</email>
+		</owner>
+		<source type="git">https://github.com/Larhard/overlay.git</source>
+	</repo>
+</repositories>
+
