@@ -6,7 +6,7 @@ EAPI=5
 
 DESCRIPTION="Userspace HDParm active/standby status monitor"
 HOMEPAGE="http://github.com/Larhard/hdparm-status"
-SRC_URI="https://github.com/Larhard/${PN}/archive/v${PV}.zip"
+SRC_URI="https://github.com/Larhard/${PN}/archive/v${PV}.zip -> ${P}.zip"
 
 LICENSE="BSD"
 SLOT="0"

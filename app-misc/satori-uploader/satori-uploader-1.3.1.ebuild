@@ -6,7 +6,7 @@ EAPI=5
 
 DESCRIPTION="Code submiter for TCS Satori service"
 HOMEPAGE="https://github.com/Larhard"
-SRC_URI="https://github.com/Larhard/${PN}/archive/v${PV}.zip"
+SRC_URI="https://github.com/Larhard/${PN}/archive/v${PV}.zip -> ${P}.zip"
 
 LICENSE="GPL-2"
 SLOT="0"
