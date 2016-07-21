@@ -13,3 +13,5 @@ remember about adding
 ````
 source /var/lib/layman/make.conf
 ````
+
+to /etc/portage/make.conf
