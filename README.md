@@ -2,6 +2,16 @@
 
 It's gentoo overlay with some additional useful programs
 
+## Installation
+
+### eselect repository
+
+```
+eselect repository add larhard-overlay git https://github.com/Larhard/overlay.git
+```
+
+### layman
+
 To add it to layman:
 
 ````bash
