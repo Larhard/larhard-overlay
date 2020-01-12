@@ -13,5 +13,5 @@ KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=""
-RDEPEND=">=dev-lang/python-3 dev-python/pyserial"
+RDEPEND=">=dev-lang/python-3[tk] dev-python/pyserial"
 BDEPEND=""
