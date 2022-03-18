@@ -16,7 +16,7 @@ KEYWORDS="~amd64 ~x86"
 IUSE="bladerf hackrf plutosdr +rtlsdr uhd hamlib"
 
 DEPEND="media-libs/rtaudio
-	>net-libs/liquid-dsp-1.3.2
+	>=net-libs/liquid-dsp-1.3.2
 	>=net-wireless/soapysdr-0.4.0[bladerf?,hackrf?,plutosdr?,rtlsdr?,uhd?]
 	virtual/opengl
 	x11-libs/wxGTK:3.1-gtk3=[opengl,-egl]
