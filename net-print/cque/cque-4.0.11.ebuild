@@ -27,5 +27,14 @@ src_unpack() {
 }
 
 src_install() {
-	cp -R "${S}/opt" "${D}/" || die "Install failed!"
+	into ${DESTDIR}opt/cque
+	dobin opt/cel/bin/sicgsfilter
+	dobin opt/cel/bin/sicnc
+
+	insinto ${DESTDIR}opt/cque
+	doins -r opt/cel/ppd
+
+	dosym ${DESTDIR}/opt/cque/ppd /usr/share/cups/model/cque
+
+	dosym ${DESTDIR}/opt/cque/bin/sicgsfilter /usr/bin/sicgsfilter
 }
